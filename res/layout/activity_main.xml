@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="Place these foods in your order of preference." />
+
+    <TextView
+        android:id="@+id/option_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/option"
+        android:gravity="center"
+        android:text="Apple"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/option_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/option"
+        android:gravity="center"
+        android:text="Cake"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/option_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/option"
+        android:gravity="center"
+        android:text="Orange"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/choice_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/choice"
+        android:gravity="center"
+        android:text="Most Favourite" />
+
+    <TextView
+        android:id="@+id/choice_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/choice"
+        android:gravity="center"
+        android:text="---" />
+
+    <TextView
+        android:id="@+id/choice_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/choice"
+        android:gravity="center"
+        android:text="Not Favourite" />
+
+</LinearLayout>
